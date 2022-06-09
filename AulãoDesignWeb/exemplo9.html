@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <table class="exemplo9Tabela"><!--Demonstrando o uso de tabela-->
+        <caption>Tabela de Pessoas</caption>
+        <tr>
+            <th class="exemplo9Tabela">Foto</th><!-- Tanto th quanto td possuem a propriedade/atributo "align" para alinhar o conteudo dentro da célula-->
+            <th class="exemplo9Tabela">Nome</th><!-- Tanto th quanto td possuem a propriedade/atributo "rowspan" para fazer com que uma celula ocupe mais de uma linha-->
+            <th class="exemplo9Tabela">Idade</th><!-- Tanto th quanto td possuem a propriedade/atributo "colspan" para fazer com que uma celula ocupe mais de uma linha-->
+        </tr>
+        <tr>
+            <td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg" alt="artur"></td>
+            <td class="exemplo9Tabela">Artur</td>
+            <td class="exemplo9Tabela">20</td>
+        </tr>
+        <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="bianca"></td>
+            <td class="exemplo9Tabela">Bianca</td>
+            <td class="exemplo9Tabela">20</td>
+        </tr>
+        <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="charlene"></td>
+            <td class="exemplo9Tabela">Charlene</td>
+            <td class="exemplo9Tabela">20</td>
+        </tr>
+        <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="daniela"></td>
+            <td class="exemplo9Tabela">Daniela</td>
+            <td class="exemplo9Tabela">20</td>
+        </tr>
+        <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/rayul-_M6gy9oHgII-unsplash.jpg" alt="emanuel"></td>
+            <td class="exemplo9Tabela">Emanuel</td>
+            <td class="exemplo9Tabela">20</td>
+        </tr>
+    </table>
+    <br>
+    <p>O atributo border está depreciado. Evite usá-lo.</p>
+    <br>
+    <table class="exemplo9Tabela"><!--Demonstrando o uso de tabela-->
+        <caption>Tabela de Personagens - Westworld</caption>
+        <thead>
+            <tr>
+                <th class="exemplo9Tabela">Foto</th>
+                <th class="exemplo9Tabela">Nome</th>
+                <th class="exemplo9Tabela">Androide?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/Dolores-Westworld.jpg" alt="Dolores"></td>
+                <td class="exemplo9Tabela">Dolores Abernathy</td>
+                <td class="exemplo9Tabela">Sim</td>
+            </tr>
+            <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/manInBlackWestworld.jpg" alt="Man In Black"></td>
+                <td class="exemplo9Tabela">Man In Black</td>
+                <td class="exemplo9Tabela">Não</td>
+            </tr>
+            <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/teddyFlood.jpg" alt="Teddy"></td>
+                <td class="exemplo9Tabela">Teddy Flood</td>
+                <td class="exemplo9Tabela">Sim</td>
+            </tr>
+            <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/Westworld-Maeve-4-temporada-1024x580.jpg" alt="Maeve"></td>
+                <td class="exemplo9Tabela">Maeve Millay</td>
+                <td class="exemplo9Tabela">Sim</td>
+            </tr>
+            <tr><td class="exemplo9Tabela"><img class="exemplo9Imagem" src="img/westworld-episodio-7-bernard.jpg" alt="Bernard"></td>
+                <td class="exemplo9Tabela">Bernard Lowe</td>
+                <td class="exemplo9Tabela">????</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/jBfOlQrko0c" title="Westworld Primeira Temporada" frameborder="2"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+    <table border="1">
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <th>Professor</th>
+            <th>Curso</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>Front-end</td>
+            <td>$539</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>Back-end</td>
+            <td>$499</td>
+        </tr>
+    </table>
+        
+</body>
+</html>

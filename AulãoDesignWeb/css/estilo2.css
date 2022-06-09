@@ -1,0 +1,230 @@
+/* Exemplo 1 CSS*/
+.paragEx1Css:first-child {
+    background-color: yellow;
+}
+/* Exemplo 2 CSS */
+.div1Ex2Css{
+    margin: 5px;
+    padding: 5px;
+    background-color: #ff0000;
+    transition: 2s;
+}
+
+.div1Ex2Css:hover{
+    margin: 15px;
+    padding: 15px;
+}
+
+.div2Ex2Css{
+    margin: 2px;
+    padding: 2px;
+    background-color: #00ff00;
+    transition: 2s;
+}
+
+.div2Ex2Css:hover{
+    margin: 10px 20px;
+    padding: 20px 10px;
+}
+
+.div3Ex2Css{
+    margin: 30px 40px;
+    padding: 40px 50px;
+    background-color: #0000ff;
+    transition: 2s;
+}
+
+.div3Ex2Css:hover{
+    margin: 10px 1px 20px;
+    padding: 20px 1px 10px;
+}
+
+.div4Ex2Css{
+    margin: 30px 25px 25px 40px;
+    padding: 40px 25px 25px 50px;
+    background-color: #c300ff;
+    transition: 2s;
+}
+
+.div4Ex2Css:hover{
+    margin: 3px 1px 100px 40px;
+    padding: 40px 100px 1px 3px;
+}
+/* Exemplo 3 CSS */
+/* Cor */
+.pag1Ex3Css{
+    color: red;
+    background-color: #0000ff;
+}
+.pag2Ex3Css{
+    color: green;
+    background-color: violet;
+}
+/* Alinhamento */
+.pag3Ex3Css{
+    text-align:left;
+    text-align-last:right;
+}
+.pag4Ex3Css{
+    text-align:center;
+    text-align-last:center;
+}
+.pag5Ex3Css{
+    text-align:right;
+    text-align-last:right;
+}
+.pag6Ex3Css{
+    text-align:center;
+    text-align-last:left;
+}
+/* Decoração */
+.pag7Ex3Css{
+    font-size: larger;
+    text-decoration-line: underline overline; /* Também pode ser usado o text-decoration contendo todos os argumentos para decoração*/
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+.pag8Ex3Css{
+    font-size: larger;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
+}
+.pag9Ex3Css{
+    font-size: larger;
+    text-decoration-line: line-through;
+    text-decoration-color: green;
+    text-decoration-style: double;
+    text-decoration-thickness: 6px;
+}
+.pag10Ex3Css{
+    font-size: larger;
+    text-decoration-line: overline;
+    text-decoration-color: violet;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 3px;
+}
+/* Transformação */
+.pag11Ex3Css{
+    text-transform: uppercase;
+}
+.pag12Ex3Css{
+    text-transform: lowercase;
+}
+.pag13Ex3Css{
+    text-transform: capitalize;
+}
+/* Espaçamento */
+.pag14Ex3Css{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+    line-height: 1.6;
+}
+.pag15Ex3Css{
+    text-indent: -2em;
+    letter-spacing: 2px;
+    word-spacing: 40px;
+    line-height: 80%;
+}
+.pag16Ex3Css{
+    text-indent: 30%;
+    letter-spacing: -1px;
+    word-spacing: 20px;
+    line-height: 200%;
+}
+/* Sombra! */
+.pag17Ex3Css{
+    text-shadow:2px 2px#0000ff;
+}
+.pag18Ex3Css{
+    text-shadow:1px 4px#00ffff;
+}
+.pag19Ex3Css{
+    text-shadow:4px 1px#ff00ff;
+}
+.pag20Ex3Css{
+    text-shadow:1px 1px#00c3c3;
+}
+/* Exemplo 4 CSS */
+.bodyEx4Css{
+    background-color: red;
+}
+/* Exemplo 5 CSS */
+.bodyEx5Css{
+    background-color: blue;
+}
+.paragEx5Css{
+    text-align: center;
+    font-size: 100px;
+    background-color: red;
+    opacity: 0.8;
+    transition: 2s;
+}
+.paragEx5Css:hover{
+    background-color: red;
+    opacity: 0.2;
+    transition: 2s;
+}
+/* Exemplo 6 CSS */
+.bodyEx6Css {
+    background-image: url("../img/child-7223632_1280.jpg"); /* No CSS, é necessário, primeiro, subir uma pasta, depois acessar a pasta img, depois acessar a imagem de fato */
+}
+
+/* Exemplo 7 CSS */
+.bodyEx7Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Exemplo 8 CSS */
+.bodyEx8Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: repeat-x;
+}
+
+/* Exemplo 9 CSS */
+.bodyEx9Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: repeat-y;
+}
+
+/* Exemplo 10 CSS */
+.bodyEx10Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* Exemplo 11 CSS */
+.bodyEx11Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+/* Exemplo 12 CSS */
+.bodyEx12Css {
+    background-image: url("../img/child-7223632_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 500px 500px;
+}
+
+/* Exemplo 12 CSS */
+.bodyEx13Css {
+    background-image:
+    url("../img/child-7223632_1280.jpg"),
+    url("../img/seagull-g5533a8c52_1280.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, left top;
+    background-size: 40%, 40%;
+}
+#paraEx13Css{
+    margin-right: 200px;
+    margin-left: 500px;
+    color: white;
+}

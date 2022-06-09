@@ -1,0 +1,99 @@
+/* Exemplo 1 */
+#meuParagrafo {
+    color: #c3c3c3;
+    transition: 2s;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+#meuParagrafo:hover {
+    transition: 2s;
+    color: green;
+    background-color: black;
+}
+/* Exemplo 4*/
+
+/* Exemplo 7 */
+.exemplo7Body, .exemplo6Body{
+    text-align: center;
+}
+#blocoEx7{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: all .2s ease-in-out;
+    animation-name: exemplo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes exemplo {
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: blue;}
+    60%  {background-color: purple;}
+    80% {background-color: green;}
+    100%   {background-color: red;}
+}
+#blocoEx7:hover{
+    transform: scale(2, 3);
+}
+#blocoAnchorEx7{
+    text-decoration: none;
+    color:cyan;
+}
+/* Exemplo 9 */
+.exemplo9Tabela{
+    border: 2px solid black;
+}
+.exemplo9Imagem, .imgEx1Semant {
+    width: 350px;
+    height: 250px;
+}
+
+/* Exemplo 2 Semântico 
+Link para como centralizar texto em uma div: https://blog.hubspot.com/website/center-div-css#:~:text=You%20can%20do%20this%20by,the%20div)%20vertically%20and%20horizontally.*/
+.bodyEx2Sem{
+    margin: 0px;
+}
+.headerEx2Sem{
+    text-align: center;
+    background: red;
+    border-radius: 30px;
+    width: 100%;
+    height: 360px;
+}
+.mainEx2Sem{
+    text-align: center;
+    background: blueviolet;
+    border-radius: 30px;
+    width: 100%;
+    height: 850px;
+}
+.sectionEx2Sem{
+    background: navy;
+    border-radius: 30px;
+    transition: 2s;
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.sectionEx2Sem:hover{
+    color: white;
+}
+.asideEx2Sem{
+    background: maroon;
+    border-radius: 30px;
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.figureEx2Sem{
+    width: 20%;
+    height: 100px;
+}
+.footerEx2Sem{
+    text-align: center;
+    background: cyan;
+    border-radius: 30px;
+    width: 100%;
+    height: 150px;
+}

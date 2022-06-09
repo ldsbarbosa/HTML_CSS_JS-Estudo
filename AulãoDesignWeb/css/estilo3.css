@@ -1,0 +1,33 @@
+/* Exercicio 14 CSS */
+#move1Ex14Css {  
+    transform: translate(50px,100px);
+}
+#move2Ex14Css {  
+    transform: translate(100px,100px);
+}
+#move3Ex14Css {  
+    transform: translate(150px,100px);
+}
+/* Exercicio 15 CSS */
+#gira1Ex15Css {  
+    transform: rotate(-10deg);
+}
+#gira2Ex15Css {  
+    transform: rotate(-20deg);
+}
+#gira3Ex15Css {  
+    transform: rotate(-30deg);
+}
+
+/* Exercicio 16 CSS */
+#diminuiEx16Css {  
+    transform: scale(0.5,0.5) ;
+}
+#aumentaEx16Css {  
+    transform: scale(1.5,1.5);
+}
+.imgEx16Css{
+    width:300px;
+    height:200px;
+    margin-top: 50px;
+}
