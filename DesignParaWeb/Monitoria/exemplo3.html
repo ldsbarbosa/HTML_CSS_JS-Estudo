@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+		<h1>Formularios e inputs</h1>
+		<p>O elemento <B>form</B> é um container usado para criar formulários com inputs dentro </p>
+		<p>Dentro do form temos o <B>input</B>, que pode ser exibido de formas diferentes, de acordo com seu tipo.</p>
+		<p>Vamos treinar diferentes tipos de formulários:</p>
+	
+	<form target="_blank" autocomplete="on">
+
+		<h3>Cadastro de Usuario</h3>
+
+		<fieldset>
+			<legend>Nome</legend>
+
+			<label for="nome">Nome:</label><br>
+			<input type="text" name="nome" id="nome"><br>
+
+			<label for="sobrenome">Sobrenome:</label><br>
+			<input type="text" name="snome" id="snome"><br>
+
+			<label for="email">Email:</label><br>
+			<input type="email" name="email" id="email"><br><br>
+
+			<label for="email">Senha:</label><br>
+			<input type="password" name="email" id="email" disabled><br><br>
+
+		</fieldset><br>
+
+		<fieldset>
+			<legend>Genêro</legend>
+
+			<input type="radio" id="masc" name="genero" value="masculino">
+		    <label for="masc">Masculino</label>
+		    <input type="radio" id="fem" name="genero" value="feminino">
+		    <label for="female">Feminino</label><br><br>
+	    </fieldset><br>
+
+	    <fieldset>
+		    <label for="cidade">Escolha sua cidade:</label>
+			<select id="cidade" name="cidade" size="1">
+			  <option value="taguatinga">Taguatinga</option>
+			  <option value="ceilandia" selected>Ceilândia</option>
+			  <option value="samambaia">Samambaia</option>
+			  <option value="guara">Guará</option>
+			</select><br><br>
+
+			<label for="atividade">Atividades que você exerce:</label><br>
+
+			<select id="atividade" name="atividade" size="3" multiple="">
+			  <option value="estuda">Estuda</option>
+			  <option value="trabalha" >Trabalha</option>
+			  <option value="N/A" >Nenhuma das opções</option>
+			</select><br><br>
+		</fieldset><br>
+
+		<textarea name="obs" rows="10" cols="30">
+Escreva uma observação.
+		</textarea><br><br>
+
+		<input type="checkbox" id="receberEmail" name="receberEmail" value="rEmail">
+
+	    <label for="receberEmail"> Quero receber notificações por email</label><br>
+
+	    <input type="checkbox" id="receberWhatsapp" name="receberWhatsapp" value="rWhatsapp">
+	    <label for="receberWhatsapp"> Quero receber notificações por whatsapp</label><br><br>
+
+	    <input type="submit" value="Enviar">
+
+	    <button type="button" onclick="alert('Bla bla bla')">Clique Aqui!</button>
+
+	    <input type="reset" value="Apagar">
+
+	</form>
+		
+</body>
+</html>

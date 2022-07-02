@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 2</title>
+</head>
+<body>
+	<center><h1>Aula 2</h1></center>
+
+	<h2>ESTILOS DE TEXTO</h2>
+
+	<p><B>Texto em negrito usando < B ></B></p>
+	 <p><I>Texto em itálico usando < I ></I></p>
+	  <p><U>Texto sublinhado usando < U ></U></p>
+	   <p>Texto sobrescrito<SUP>< SUP ></SUP></p>
+	    <p>Texto subscrito<SUB>< SUB ></SUB></p>
+	     <p><PRE>Texto pré-formatado utilizando o < PRE ></PRE></p>
+
+    <hr width="100%" align="left" size="2" color="silver" >
+
+	<h3>Alinhamento de texto</h3>
+	     
+	<p align="left">Texto alinhado à esquerda.</p>
+	 <p align="right">Texto alinhado à direita.</p>
+	  <p align="center">Texto alinhado ao centro.</p>
+
+    <hr width="100%" align="left" size="2" color="silver" >
+
+	<h2>FONTES</h2>
+
+  <font face="Arial">
+	<p>Primeiro mudando o tipo de fonte, alterando o valor do face=""</p>
+  </font>
+
+
+  <font size="5.2">
+	<p>Segundo mudando o tamanho da fonte, alterando o valor do size="". Pode ser alterado de 1 a 7.</p>
+  </font>
+
+  <font color="red">
+	<p>Terceiro alterando a cor da fonte, alterando o valor do color="". Pode ser utilizado o valor hexadeciaml da cor ou o nome predefinido dela.</p>
+  </font>
+
+  <font size="6" face="Times New Roman" color="#483D8B">
+	<p>Agora mudando todos.</p>
+  </font>
+  <font size="7" face="Arial" color="#000080">
+	<p align="center">Mudando <B>todos</B> e <I>combinando</I> com os <U>estilos de texto</U>.</p>
+  </font>
+
+  <hr width="100%" align="left" size="2" color="silver" >
+
+  <h2>LINHAS HORIZONTAIS</h2>
+  <h3>Vamos desenhar diferentes linhas com a tag < hr>, alterando os valores dos atributos:</h3>
+
+  	Primeiro uma linha que ocupa 100% da largura da página, alinhada à esquerda, tamanho 2 e cor black.
+  	<hr width="100%" align="left" size="2" color="black" >
+	<p align="right">Segundo uma linha que ocupa 70% da largura da página, alinhada à direita, tamanho 3 e cor blue.</p> 
+	<hr width="70%" align="right" size="3" color="blue" ><br>
+	<p align="center">Terceiro uma linha que ocupa 30% da largura da página, alinhada ao centro, tamanho 5 e cor red.</p> 
+	<hr width="30%" align="center" size="5" color="red" noshade><br>
+
+	<hr width="100%" align="left" size="2" color="silver" >
+	<h2>IMAGENS</h2>
+	<h4>Redes sociais - ícones:</h4>
+	
+	<img src="img/faceicone.png" 
+	 alt="Facebook"
+	 width="150px"
+	 height="150px">
+
+	 <img src="">
+	 <img src="img/twittericone.png" 
+	 alt="Twitter"
+	 width="150px"
+	 height="150px">
+	 <img src="img/wppicone.png" 
+	 alt="WhatsApp"
+	 width="130px"
+	 height="130px">
+	 <br>
+	 <h4>Imagem em um URL:</h4>
+	 <img src="https://image.flaticon.com/icons/png/512/174/174855.png"
+	 alt="Instagram"
+	 width="10%"
+	 height="10%">
+
+	 <h4>Imagem utilizando a tag < picture></h4>
+	 <picture>
+	 	<source srcset="img/twittericone.png" media="(min-width:900px)">
+	 	<source srcset="img/quadrado.png"  media="(max-width:700px)">
+	 	<img srcset="img/faceicone.png" style="width:auto;">
+	 </picture>
+</body>
+</html>

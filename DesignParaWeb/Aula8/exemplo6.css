@@ -1,0 +1,14 @@
+body{
+background-color: black;
+background-image:
+url(imagens/jogosvorazes.gif),
+url(imagens/Katniss.gif);
+background-repeat: no-repeat, no-repeat;
+background-position: top right, top left;
+background-size: 30%, 30%;
+}
+#teste{
+margin-right: 200px;
+margin-left: 500px;
+color: white;
+}

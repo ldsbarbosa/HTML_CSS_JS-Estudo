@@ -1,0 +1,19 @@
+Exercício
+Cirar um site com 3 páginas, formatadas pelo CSS externo, com os seguintes itens obrigatórios:
+
+-> background-color	
+-> background-image	
+-> background-repeat	
+-> background-position	
+-> background-size	
+-> Transformações 2D
+
+É de sua livr escolha como você utilizará estas formatações, use a criatividade.
+
+Como tema, escolha um destes, se preferir:
+-> DBZ
+-> Naruto
+-> Comida
+-> Futebol
+-> Skate
+-> CS

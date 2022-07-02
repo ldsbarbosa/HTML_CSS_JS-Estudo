@@ -1,0 +1,49 @@
+body {
+background-color: #0d0d0d;
+background-image: url(imagens/dbz.gif);
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: 500px 300px;
+transform: translate(60px, 60px);
+background-attachment: fixed;
+}
+body#goku{
+background-color: #00004d;
+background-image: url(imagens/goku.gif);
+background-repeat: repeat-x;
+background-position: bottom right;
+background-size: 500px 300px;
+transform: translate(45px, 45px);
+background-attachment: fixed;
+}
+body#majimboo{
+background-color: #602040;
+background-image: url(imagens/majimboo.gif);
+background-repeat: repeat;
+background-position: bottom right;
+background-size: 500px 300px;
+transform: translate(50px, 50px);
+background-attachment: fixed;
+}
+body#vegeta{
+background-color: #222211;
+background-image: url(imagens/vegeta.gif);
+background-repeat: repeat-y;
+background-position: bottom right;
+background-size: 500px 300px;
+transform: translate(55px, 55px);
+background-attachment: fixed;
+}
+h1{
+color: #804000;
+}
+p{
+color: #004d00;
+}
+div.majim1{
+background-color: #b3e6ff;
+opacity: 0.8;
+width: 25%;
+}
+button{
+transform: rotate(-5deg);}

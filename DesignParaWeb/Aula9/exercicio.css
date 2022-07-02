@@ -1,0 +1,18 @@
+body {
+background-color: #fdaa5d;
+}
+@keyframes move {
+0% {margin-right: 200px;}
+100% {margin-left: 500px;}
+}
+button {
+background-color: #ffffff;
+width: 300px;
+height: 100px;
+animation-name: move;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+img{
+vertical-align: middle;
+}

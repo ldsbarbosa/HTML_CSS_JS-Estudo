@@ -1,0 +1,14 @@
+Exercício
+Você deve criar 3 arquivos html (3 páginas), e 1 arquivo css, que será chamado pelas páginas.
+
+Página 1:
+Crie um site sobre as suas viagens, com link para dois destinos. Por exemplo: Jericoacoara e Lagoinha
+
+Página 2:
+Crie uma página sobre o primeiro destino. Por exemplo, cire uma página com o título Jericoacoara, com uma foto daquele lugar e uma descrição.
+
+Página 2:
+Crie uma página sobre o segundo destino. Por exemplo, cire uma página com o título lagoinha, com uma foto daquele lugar e uma descrição.
+
+CSS:
+Criar um arquivo CSS que formata, pelo menos: <h1>, <p>, <li> e <a>.

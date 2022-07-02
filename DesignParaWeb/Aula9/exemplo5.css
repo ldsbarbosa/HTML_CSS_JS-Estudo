@@ -1,0 +1,20 @@
+#teste{
+border-bottom-width: thick;
+border-right-width: 20px;
+border-left-width: 0.2cm;
+}
+
+#teste2{
+border-bottom-width: thick;
+border-right-width: 20px;
+border-left-width: 0.2cm;
+border-top-color: blue;
+border-bottom-color: #ff0000;
+}
+
+#teste3 {
+border-bottom-style: double;
+border-right-style: solid;
+border-left-style: dashed;
+border-top-style: dotted;
+}

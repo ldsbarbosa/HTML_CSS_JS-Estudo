@@ -1,0 +1,40 @@
+body {
+background-color: #808080;
+}
+
+h1 {
+font-size: 35pt;
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+color: #a6a6a6;
+}
+
+h2 {
+font-size: 21pt;
+}
+
+p {
+font-family: 'Comic Sans MS', sans-serif;
+font-size: 14pt;
+color: #b3ffcc;
+border-style: dashed;
+border-width: 2,5px;
+border-color: #00802b;
+}
+
+p.principal {
+text-indent: 20px;
+font-size: 18pt;
+text-align: justify;
+border-style: solid;
+}
+
+li {
+list-style-type: none;
+background: #5c5c8a;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+}
